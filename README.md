@@ -3,8 +3,10 @@
 Steps for the process
 
 1. Quit Docker Desktop
-2. Open Command Prompt (or PowerShell) run with administrator
-3. List existing WSL storages
+
+3. Open Command Prompt (or PowerShell) run with administrator
+
+5. List existing WSL storages
   ```
   wsl --list -v
   ```
@@ -32,4 +34,5 @@ Steps for the process
   ```
 
 9. Delete the exported .tar file: D:\Docker\wsl\data\docker-desktop-data.tar
+
 10. Start Docker Desktop and run your containers.
